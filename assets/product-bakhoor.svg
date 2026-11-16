@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#284A39"/>
+      <stop offset="55%" stop-color="#142E22"/>
+      <stop offset="100%" stop-color="#0C1B14"/>
+    </radialGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2C879"/>
+      <stop offset="50%" stop-color="#C8822B"/>
+      <stop offset="100%" stop-color="#8C5313"/>
+    </linearGradient>
+    <linearGradient id="smokeGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FAF7F2" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#E2A856" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FAF7F2" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="emberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFB347" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#D96B27" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#2C1D15" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgGrad)"/>
+
+  <!-- Subtle architectural arch -->
+  <path d="M180 600 L180 260 Q180 90 400 90 Q620 90 620 260 L620 600" fill="none" stroke="#C8822B" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M210 600 L210 270 Q210 120 400 120 Q590 120 590 270 L590 600" fill="none" stroke="#E2A856" stroke-opacity="0.1" stroke-width="1"/>
+
+  <!-- Rising aromatic smoke -->
+  <path d="M400 285 C370 245, 435 205, 395 160 C365 125, 420 85, 395 45" fill="none" stroke="url(#smokeGrad)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M412 285 C445 240, 385 195, 420 145 C445 110, 395 75, 425 35" fill="none" stroke="url(#smokeGrad)" stroke-width="6" stroke-linecap="round"/>
+  <path d="M388 285 C355 250, 405 215, 375 170" fill="none" stroke="url(#smokeGrad)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Ember glow -->
+  <ellipse cx="400" cy="298" rx="56" ry="20" fill="url(#emberGlow)"/>
+
+  <!-- Mabkhara (Traditional Censer) -->
+  <!-- Base -->
+  <path d="M320 495 L480 495 L465 470 L335 470 Z" fill="url(#goldGrad)"/>
+  <rect x="310" y="495" width="180" height="14" rx="5" fill="#2C1D15" stroke="url(#goldGrad)" stroke-width="2"/>
+  <!-- Stem -->
+  <path d="M368 470 L382 395 L418 395 L432 470 Z" fill="#1E140E" stroke="url(#goldGrad)" stroke-width="2"/>
+  <ellipse cx="400" cy="432" rx="30" ry="9" fill="url(#goldGrad)"/>
+  <!-- Upper Bowl -->
+  <path d="M305 315 L495 315 L465 395 L335 395 Z" fill="#142E22" stroke="url(#goldGrad)" stroke-width="3"/>
+  <path d="M295 315 L505 315 L495 298 L305 298 Z" fill="url(#goldGrad)"/>
+  <!-- Decorative geometric diamond -->
+  <polygon points="400,332 422,355 400,378 378,355" fill="none" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <circle cx="400" cy="355" r="5" fill="#E2A856"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="400" cy="516" rx="145" ry="14" fill="#07110C" opacity="0.7"/>
+</svg>

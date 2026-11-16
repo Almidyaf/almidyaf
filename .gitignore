@@ -1,0 +1,14 @@
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Environment & logs
+.env
+.env.*
+*.log
+
+# Source documents (kept locally, not deployed to web server)
+*.docx
