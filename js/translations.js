@@ -108,7 +108,9 @@ const translations = {
         {
           num: "02",
           title: "مصنع دهن العود",
-          desc: "وحدة تقطير واستخلاص مخصصة لإنتاج دهن العود بجودة ممتازة وثبات فائق يلبي متطلبات السوق الخليجية."
+          desc: "وحدة تقطير واستخلاص مخصصة لإنتاج دهن العود بجودة ممتازة وثبات فائق يلبي متطلبات السوق الخليجية.",
+          ctaText: "دخول نظام مصنع دهن العود",
+          ctaUrl: "https://duhn.almidyaf.com/login"
         },
         {
           num: "03",
@@ -295,7 +297,9 @@ const translations = {
         {
           num: "02",
           title: "Pabrik Minyak Gaharu",
-          desc: "Unit penyulingan khusus yang menghasilkan minyak gaharu (Dehn Al Oud) berkualitas unggul untuk pasar domestik dan ekspor."
+          desc: "Unit penyulingan khusus yang menghasilkan minyak gaharu (Dehn Al Oud) berkualitas unggul untuk pasar domestik dan ekspor.",
+          ctaText: "Masuk Sistem Pabrik Minyak Gaharu",
+          ctaUrl: "https://duhn.almidyaf.com/login"
         },
         {
           num: "03",
@@ -482,7 +486,9 @@ const translations = {
         {
           num: "02",
           title: "Oud Oil Factory",
-          desc: "Dedicated distillation unit producing high-grade Pure Oud Oil tailored for discerning Gulf and international markets."
+          desc: "Dedicated distillation unit producing high-grade Pure Oud Oil tailored for discerning Gulf and international markets.",
+          ctaText: "Access Oud Oil Factory System",
+          ctaUrl: "https://duhn.almidyaf.com/login"
         },
         {
           num: "03",

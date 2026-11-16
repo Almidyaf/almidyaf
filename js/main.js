@@ -88,6 +88,7 @@
         <span class="division-num">${item.num}</span>
         <h3>${item.title}</h3>
         <p>${item.desc}</p>
+        ${item.ctaUrl ? `<a href="${item.ctaUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm division-cta">${item.ctaText}</a>` : ''}
       </article>
     `).join('');
   }

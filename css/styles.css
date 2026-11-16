@@ -674,7 +674,14 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: var(--radius-lg);
   padding: 30px;
+  display: flex;
+  flex-direction: column;
   transition: var(--transition);
+}
+
+.division-cta {
+  margin-top: 20px;
+  align-self: flex-start;
 }
 
 .division-card:hover {
