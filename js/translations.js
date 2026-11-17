@@ -162,7 +162,7 @@ const translations = {
       altEmailLabel: "بريد المتجر",
       officePhoneLabel: "تلفون المكتب",
       waLabel: "واتساب الرئيسي",
-      mobileLabel: "جوال إندونيسيا",
+      mobileLabel: "واتساب إندونيسيا",
       socialTitle: "تابعونا على منصات التواصل الاجتماعي"
     },
     footer: {
@@ -334,7 +334,7 @@ const translations = {
       altEmailLabel: "Email Toko",
       officePhoneLabel: "Telepon Kantor",
       waLabel: "WhatsApp Utama",
-      mobileLabel: "Nomor HP Indonesia",
+      mobileLabel: "WhatsApp Indonesia",
       socialTitle: "Ikuti Media Sosial Kami"
     },
     footer: {
@@ -506,7 +506,7 @@ const translations = {
       altEmailLabel: "Store Email",
       officePhoneLabel: "Office Phone",
       waLabel: "Primary WhatsApp",
-      mobileLabel: "Indonesia Mobile",
+      mobileLabel: "Indonesia WhatsApp",
       socialTitle: "Follow Us on Social Media"
     },
     footer: {
