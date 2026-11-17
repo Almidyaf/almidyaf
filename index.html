@@ -34,11 +34,34 @@
       </ul>
 
       <div class="nav-actions">
-        <div class="lang-switcher" role="group" aria-label="Language Switcher">
-          <button type="button" class="lang-btn active" data-lang="ar">عربي</button>
-          <button type="button" class="lang-btn" data-lang="id">ID</button>
-          <button type="button" class="lang-btn" data-lang="en">EN</button>
+        <div class="lang-switcher" id="lang-switcher">
+          <button type="button" class="lang-dropdown-toggle" id="lang-dropdown-toggle" aria-expanded="false" aria-haspopup="true" aria-label="Language">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            <span id="lang-current-label">عربي</span>
+            <svg class="lang-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="lang-menu" id="lang-menu" role="group" aria-label="Language Switcher">
+            <button type="button" class="lang-btn active" data-lang="ar">عربي</button>
+            <button type="button" class="lang-btn" data-lang="id">ID</button>
+            <button type="button" class="lang-btn" data-lang="en">EN</button>
+          </div>
         </div>
+
+        <a href="https://wa.me/6281314141407" target="_blank" rel="noopener noreferrer" class="btn btn-consult btn-sm" id="nav-consult-btn">
+          <svg class="consult-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            <path d="M8 10h.01"></path>
+            <path d="M12 10h.01"></path>
+            <path d="M16 10h.01"></path>
+          </svg>
+          <span data-i18n="nav.consultBtn">استشارة</span>
+        </a>
 
         <a href="https://wa.me/966503114393" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nav-cta-desktop" data-i18n="nav.whatsappBtn">
           تواصل واتساب

@@ -1,7 +1,9 @@
 (function () {
   const SUPPORTED_LANGS = ['ar', 'id', 'en'];
+  const LANG_LABELS = { ar: 'عربي', id: 'ID', en: 'EN' };
   const STORAGE_KEY = 'almedyaf_lang';
   const MAIN_WHATSAPP = '966503114393';
+  const CONSULTATION_WHATSAPP = '6281314141407';
 
   function detectDeviceLanguage() {
     const saved = localStorage.getItem(STORAGE_KEY);
@@ -142,6 +144,16 @@
       btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
     });
 
+    const langCurrentLabel = document.getElementById('lang-current-label');
+    if (langCurrentLabel) {
+      langCurrentLabel.textContent = LANG_LABELS[lang] || 'عربي';
+    }
+
+    const consultBtn = document.getElementById('nav-consult-btn');
+    if (consultBtn && t.nav && t.nav.consultWaText) {
+      consultBtn.href = `https://wa.me/${CONSULTATION_WHATSAPP}?text=${encodeURIComponent(t.nav.consultWaText)}`;
+    }
+
     renderProducts(t);
     renderDivisions(t);
     renderBranches(t);
@@ -151,16 +163,46 @@
     const initialLang = detectDeviceLanguage();
     applyLanguage(initialLang, false);
 
+    const langSwitcher = document.getElementById('lang-switcher');
+    const langDropdownToggle = document.getElementById('lang-dropdown-toggle');
+
+    function setLangDropdownOpen(isOpen) {
+      if (!langSwitcher || !langDropdownToggle) return;
+      langSwitcher.classList.toggle('open', isOpen);
+      langDropdownToggle.setAttribute('aria-expanded', String(isOpen));
+    }
+
+    if (langDropdownToggle && langSwitcher) {
+      langDropdownToggle.addEventListener('click', e => {
+        e.stopPropagation();
+        setLangDropdownOpen(!langSwitcher.classList.contains('open'));
+      });
+    }
+
     document.querySelectorAll('.lang-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         applyLanguage(btn.getAttribute('data-lang'), true);
+        setLangDropdownOpen(false);
       });
+    });
+
+    document.addEventListener('click', e => {
+      if (langSwitcher && !langSwitcher.contains(e.target)) {
+        setLangDropdownOpen(false);
+      }
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        setLangDropdownOpen(false);
+      }
     });
 
     const mobileToggle = document.getElementById('mobile-toggle');
     const navLinks = document.getElementById('nav-links');
     if (mobileToggle && navLinks) {
       mobileToggle.addEventListener('click', () => {
+        setLangDropdownOpen(false);
         navLinks.classList.toggle('open');
       });
       navLinks.querySelectorAll('a').forEach(link => {

@@ -9,6 +9,8 @@ const translations = {
       divisions: "الأقسام",
       branches: "مراكز المبيعات",
       contact: "تواصل معنا",
+      consultBtn: "استشارة",
+      consultWaText: "السلام عليكم، أرغب في الحصول على استشارة من شركة المضياف لنوادر العود.",
       whatsappBtn: "تواصل واتساب"
     },
     hero: {
@@ -181,6 +183,8 @@ const translations = {
       divisions: "Divisi",
       branches: "Pusat Penjualan",
       contact: "Kontak",
+      consultBtn: "Konsultasi",
+      consultWaText: "Halo Almedyaf, saya ingin berkonsultasi mengenai produk gaharu.",
       whatsappBtn: "Chat WhatsApp"
     },
     hero: {
@@ -353,6 +357,8 @@ const translations = {
       divisions: "Divisions",
       branches: "Sales Centers",
       contact: "Contact",
+      consultBtn: "Consultation",
+      consultWaText: "Hello Almedyaf, I would like to request a consultation.",
       whatsappBtn: "WhatsApp Us"
     },
     hero: {
