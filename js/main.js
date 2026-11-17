@@ -54,6 +54,7 @@
     if (!grid) return;
 
     const imageMap = {
+      'natural-oud': 'assets/product-natural-oud.jpg',
       'improved-oud': 'assets/product-improved-oud.jpg',
       'oud-oil': 'assets/product-oud-oil.jpg',
       'bakhoor': 'assets/product-bakhoor.svg'

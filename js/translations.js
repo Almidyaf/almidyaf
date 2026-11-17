@@ -65,9 +65,15 @@ const translations = {
     products: {
       eyebrow: "تشكيلتنا المختارة",
       title: "منتجاتنا",
-      subtitle: "نقدم ثلاثة خطوط رئيسية تجمع بين أصالة الغابات الإندونيسية ودقة التصنيع لتلبية تطلعات عشاق العود وتجار الجملة.",
+      subtitle: "نقدم أربعة خطوط رئيسية تجمع بين أصالة الغابات الإندونيسية ودقة التصنيع لتلبية تطلعات عشاق العود وتجار الجملة.",
       inquireBtn: "اطلب استفسار / عرض سعر",
       items: [
+        {
+          id: "natural-oud",
+          title: "العود الطبيعي",
+          desc: "أجود كسر العود الطبيعي المستخرجة من مصادره الأصيلة في غابات إندونيسيا وجنوب شرق آسيا بنفحاته التراثية النقية.",
+          waText: "السلام عليكم، أرغب في الاستفسار عن العود الطبيعي من شركة المضياف."
+        },
         {
           id: "improved-oud",
           title: "العود المحسن",
@@ -95,18 +101,23 @@ const translations = {
       items: [
         {
           num: "01",
+          title: "العود الطبيعي",
+          desc: "قسم متخصص في انتقاء وتوفير أجود أنواع العود الطبيعي مباشرة من مصادره الأصيلة في غابات إندونيسيا وجنوب شرق آسيا."
+        },
+        {
+          num: "02",
           title: "مصنع العود المحسن",
           desc: "منشأة متخصصة لإنتاج وتجهيز العود المحسن بمختلف درجاته وفق معايير جودة صارمة وبأسعار تنافسية."
         },
         {
-          num: "02",
+          num: "03",
           title: "مصنع دهن العود",
           desc: "وحدة تقطير واستخلاص مخصصة لإنتاج دهن العود بجودة ممتازة وثبات فائق يلبي متطلبات السوق الخليجية.",
           ctaText: "دخول نظام مصنع دهن العود",
           ctaUrl: "https://duhn.almidyaf.com/login"
         },
         {
-          num: "03",
+          num: "04",
           title: "مراكز المبيعات",
           desc: "ثلاثة مراكز بيع مباشرة في منطقة بونشاك (Cisarua, Bogor) لخدمة الزوار وتجار الجملة والتصدير."
         }
@@ -226,9 +237,15 @@ const translations = {
     products: {
       eyebrow: "Koleksi Pilihan",
       title: "Produk Kami",
-      subtitle: "Tiga lini produk utama yang memadukan kekayaan hutan Indonesia dengan ketelitian produksi untuk memenuhi kebutuhan pecinta gaharu dan importir.",
+      subtitle: "Empat lini produk utama yang memadukan kekayaan hutan Indonesia dengan ketelitian produksi untuk memenuhi kebutuhan pecinta gaharu dan importir.",
       inquireBtn: "Tanya / Minta Penawaran",
       items: [
+        {
+          id: "natural-oud",
+          title: "Gaharu Alami (Natural Oud)",
+          desc: "Kayu gaharu alami pilihan dari hutan Indonesia dan Asia Tenggara dengan aroma klasik yang murni dan autentik.",
+          waText: "Halo Almedyaf, saya ingin menanyakan informasi mengenai produk Gaharu Alami (Natural Oud)."
+        },
         {
           id: "improved-oud",
           title: "Gaharu Olahan (Improved Oud)",
@@ -256,18 +273,23 @@ const translations = {
       items: [
         {
           num: "01",
+          title: "Gaharu Alami (Natural Oud)",
+          desc: "Divisi khusus pengadaan dan seleksi kayu gaharu alami berkualitas terbaik langsung dari sumber aslinya di hutan Indonesia dan Asia Tenggara."
+        },
+        {
+          num: "02",
           title: "Pabrik Gaharu Olahan",
           desc: "Fasilitas produksi khusus untuk pengolahan gaharu berbagai grade dengan standar mutu tinggi dan harga bersaing."
         },
         {
-          num: "02",
+          num: "03",
           title: "Pabrik Minyak Gaharu",
           desc: "Unit penyulingan khusus yang menghasilkan minyak gaharu (Dehn Al Oud) berkualitas unggul untuk pasar domestik dan ekspor.",
           ctaText: "Masuk Sistem Pabrik Minyak Gaharu",
           ctaUrl: "https://duhn.almidyaf.com/login"
         },
         {
-          num: "03",
+          num: "04",
           title: "Pusat Penjualan",
           desc: "Tiga gerai penjualan resmi di kawasan Puncak, Cisarua, Bogor untuk melayani pelanggan langsung maupun grosir."
         }
@@ -387,9 +409,15 @@ const translations = {
     products: {
       eyebrow: "Curated Collection",
       title: "Our Products",
-      subtitle: "Three signature product lines combining the richness of Indonesian forests with precision craftsmanship for connoisseurs and wholesale partners.",
+      subtitle: "Four signature product lines combining the richness of Indonesian forests with precision craftsmanship for connoisseurs and wholesale partners.",
       inquireBtn: "Request Quote / Inquire",
       items: [
+        {
+          id: "natural-oud",
+          title: "Natural Oud",
+          desc: "Rare, authentic agarwood chips harvested from natural origins across Indonesia and Southeast Asia with rich traditional aroma.",
+          waText: "Hello Almedyaf, I would like to inquire about your Natural Oud products."
+        },
         {
           id: "improved-oud",
           title: "Improved Oud",
@@ -417,18 +445,23 @@ const translations = {
       items: [
         {
           num: "01",
+          title: "Natural Oud",
+          desc: "Dedicated division for sourcing and selecting authentic, high-grade Natural Oud directly from Indonesian and Southeast Asian forests."
+        },
+        {
+          num: "02",
           title: "Improved Oud Factory",
           desc: "A specialized facility dedicated to processing and crafting multiple grades of Improved Oud to exacting quality standards."
         },
         {
-          num: "02",
+          num: "03",
           title: "Oud Oil Factory",
           desc: "Dedicated distillation unit producing high-grade Pure Oud Oil tailored for discerning Gulf and international markets.",
           ctaText: "Access Oud Oil Factory System",
           ctaUrl: "https://duhn.almidyaf.com/login"
         },
         {
-          num: "03",
+          num: "04",
           title: "Sales Centers",
           desc: "Three direct retail and wholesale centers in Puncak, Cisarua, Bogor serving walk-in clients and export buyers."
         }

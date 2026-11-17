@@ -603,7 +603,7 @@ img {
 /* Products */
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
@@ -665,7 +665,7 @@ img {
 /* Divisions */
 .divisions-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
@@ -996,7 +996,8 @@ html[dir="rtl"] .toast.show {
 
 /* Responsive */
 @media (max-width: 1080px) {
-  .products-grid {
+  .products-grid,
+  .divisions-grid {
     grid-template-columns: repeat(2, 1fr);
   }
   .nav-links {
