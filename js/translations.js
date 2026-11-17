@@ -8,7 +8,6 @@ const translations = {
       products: "منتجاتنا",
       divisions: "الأقسام",
       branches: "مراكز المبيعات",
-      credentials: "التراخيص والبنك",
       contact: "تواصل معنا",
       whatsappBtn: "تواصل واتساب"
     },
@@ -66,15 +65,9 @@ const translations = {
     products: {
       eyebrow: "تشكيلتنا المختارة",
       title: "منتجاتنا",
-      subtitle: "نقدم أربعة خطوط رئيسية تجمع بين أصالة الغابات الإندونيسية ودقة التصنيع لتلبية تطلعات عشاق العود وتجار الجملة.",
+      subtitle: "نقدم ثلاثة خطوط رئيسية تجمع بين أصالة الغابات الإندونيسية ودقة التصنيع لتلبية تطلعات عشاق العود وتجار الجملة.",
       inquireBtn: "اطلب استفسار / عرض سعر",
       items: [
-        {
-          id: "natural-oud",
-          title: "العود الطبيعي",
-          desc: "أجود كسر العود الطبيعي المستخرجة من مصادره الأصيلة في غابات إندونيسيا وجنوب شرق آسيا بنفحاته التراثية النقية.",
-          waText: "السلام عليكم، أرغب في الاستفسار عن العود الطبيعي من شركة المضياف."
-        },
         {
           id: "improved-oud",
           title: "العود المحسن",
@@ -149,27 +142,6 @@ const translations = {
         }
       ]
     },
-    credentials: {
-      eyebrow: "الوثائق والتعاملات الرسمية",
-      title: "التراخيص الرسمية والبيانات البنكية",
-      subtitle: "تعمل شركة المضياف لنوادر العود بكيان قانوني مرخص للتجارة والتصدير والاستيراد في جمهورية إندونيسيا.",
-      copyBtn: "نسخ",
-      copiedMsg: "تم النسخ إلى الحافظة",
-      legalTitle: "التراخيص والاعتمادات الحكومية",
-      bankTitle: "البيانات البنكية الرسمية (للتحويلات)",
-      items: [
-        { label: "ترخيص وزارة العدل", value: "00095759.AH.01.11.TAHUN2019" },
-        { label: "تحديث الترخيص (2025)", value: "0004324,AH.01,11,TAHUN2025" },
-        { label: "ترخيص وزارة الاستثمار — تصدير واستيراد (NIB)", value: "9120005642254" },
-        { label: "الرخصة الضريبية (NPWP)", value: "0918734518434000" }
-      ],
-      bankItems: [
-        { label: "اسم البنك", value: "Bank Mandiri (بنك منديري)" },
-        { label: "رقم الحساب البنكي", value: "1330031414147" },
-        { label: "السويفت كود (SWIFT Code)", value: "BMRIIDJA" },
-        { label: "الفرع والعملة", value: "Rupiah – Branch Cisarua, Puncak" }
-      ]
-    },
     contact: {
       eyebrow: "نسعد بخدمتكم",
       title: "قنوات التواصل الرسمية",
@@ -197,7 +169,6 @@ const translations = {
       products: "Produk",
       divisions: "Divisi",
       branches: "Pusat Penjualan",
-      credentials: "Legalitas & Bank",
       contact: "Kontak",
       whatsappBtn: "Chat WhatsApp"
     },
@@ -255,15 +226,9 @@ const translations = {
     products: {
       eyebrow: "Koleksi Pilihan",
       title: "Produk Kami",
-      subtitle: "Empat lini produk utama yang memadukan kekayaan hutan Indonesia dengan ketelitian produksi untuk memenuhi kebutuhan pecinta gaharu dan importir.",
+      subtitle: "Tiga lini produk utama yang memadukan kekayaan hutan Indonesia dengan ketelitian produksi untuk memenuhi kebutuhan pecinta gaharu dan importir.",
       inquireBtn: "Tanya / Minta Penawaran",
       items: [
-        {
-          id: "natural-oud",
-          title: "Gaharu Alami (Natural Oud)",
-          desc: "Kayu gaharu alami pilihan dari hutan Indonesia dan Asia Tenggara dengan aroma klasik yang murni dan autentik.",
-          waText: "Halo Almedyaf, saya ingin menanyakan informasi mengenai produk Gaharu Alami (Natural Oud)."
-        },
         {
           id: "improved-oud",
           title: "Gaharu Olahan (Improved Oud)",
@@ -338,27 +303,6 @@ const translations = {
         }
       ]
     },
-    credentials: {
-      eyebrow: "Dokumen & Rekening Resmi",
-      title: "Legalitas Resmi & Informasi Perbankan",
-      subtitle: "Almedyaf Linawadir Al Oud beroperasi sebagai badan hukum resmi yang berizin ekspor-impor di Republik Indonesia.",
-      copyBtn: "Salin",
-      copiedMsg: "Disalin ke clipboard",
-      legalTitle: "Izin & Legalitas Pemerintah",
-      bankTitle: "Rekening Bank Resmi Perusahaan",
-      items: [
-        { label: "SK Kemenkumham RI", value: "00095759.AH.01.11.TAHUN2019" },
-        { label: "Pembaruan Izin (2025)", value: "0004324,AH.01,11,TAHUN2025" },
-        { label: "Izin Ekspor & Impor (NIB)", value: "9120005642254" },
-        { label: "NPWP Perusahaan", value: "0918734518434000" }
-      ],
-      bankItems: [
-        { label: "Nama Bank", value: "Bank Mandiri" },
-        { label: "Nomor Rekening", value: "1330031414147" },
-        { label: "Kode SWIFT", value: "BMRIIDJA" },
-        { label: "Cabang & Mata Uang", value: "Rupiah – Cabang Cisarua, Puncak" }
-      ]
-    },
     contact: {
       eyebrow: "Hubungi Kami",
       title: "Saluran Komunikasi Resmi",
@@ -386,7 +330,6 @@ const translations = {
       products: "Products",
       divisions: "Divisions",
       branches: "Sales Centers",
-      credentials: "Legal & Banking",
       contact: "Contact",
       whatsappBtn: "WhatsApp Us"
     },
@@ -444,15 +387,9 @@ const translations = {
     products: {
       eyebrow: "Curated Collection",
       title: "Our Products",
-      subtitle: "Four signature product lines combining the richness of Indonesian forests with precision craftsmanship for connoisseurs and wholesale partners.",
+      subtitle: "Three signature product lines combining the richness of Indonesian forests with precision craftsmanship for connoisseurs and wholesale partners.",
       inquireBtn: "Request Quote / Inquire",
       items: [
-        {
-          id: "natural-oud",
-          title: "Natural Oud",
-          desc: "Rare, authentic agarwood chips harvested from natural origins across Indonesia and Southeast Asia with rich traditional aroma.",
-          waText: "Hello Almedyaf, I would like to inquire about your Natural Oud products."
-        },
         {
           id: "improved-oud",
           title: "Improved Oud",
@@ -525,27 +462,6 @@ const translations = {
           phone: "+6287717787772",
           phoneType: "Phone"
         }
-      ]
-    },
-    credentials: {
-      eyebrow: "Verification & Official Records",
-      title: "Official Licenses & Banking Details",
-      subtitle: "Almedyaf Linawadir Al Oud is a fully licensed legal entity authorized for manufacturing and export-import in the Republic of Indonesia.",
-      copyBtn: "Copy",
-      copiedMsg: "Copied to clipboard",
-      legalTitle: "Government Licenses & Registrations",
-      bankTitle: "Official Corporate Banking Details",
-      items: [
-        { label: "Ministry of Justice License", value: "00095759.AH.01.11.TAHUN2019" },
-        { label: "License Renewal (2025)", value: "0004324,AH.01,11,TAHUN2025" },
-        { label: "Ministry of Investment Export/Import (NIB)", value: "9120005642254" },
-        { label: "Tax Registration (NPWP)", value: "0918734518434000" }
-      ],
-      bankItems: [
-        { label: "Bank Name", value: "Bank Mandiri" },
-        { label: "Account Number", value: "1330031414147" },
-        { label: "SWIFT Code", value: "BMRIIDJA" },
-        { label: "Branch & Currency", value: "Rupiah – Branch Cisarua, Puncak" }
       ]
     },
     contact: {

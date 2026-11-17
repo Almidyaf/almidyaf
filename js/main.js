@@ -54,7 +54,6 @@
     if (!grid) return;
 
     const imageMap = {
-      'natural-oud': 'assets/product-natural-oud.jpg',
       'improved-oud': 'assets/product-improved-oud.jpg',
       'oud-oil': 'assets/product-oud-oil.jpg',
       'bakhoor': 'assets/product-bakhoor.svg'
@@ -119,30 +118,6 @@
     }).join('');
   }
 
-  function renderCredentials(t) {
-    const legalList = document.getElementById('legal-list');
-    const bankList = document.getElementById('bank-list');
-
-    const buildRows = (items) => items.map(item => `
-      <div class="cred-row">
-        <div class="cred-info">
-          <span class="cred-label">${item.label}</span>
-          <span class="cred-value">${item.value}</span>
-        </div>
-        <button type="button" class="copy-btn" data-copy="${item.value}">${t.credentials.copyBtn}</button>
-      </div>
-    `).join('');
-
-    if (legalList) legalList.innerHTML = buildRows(t.credentials.items);
-    if (bankList) bankList.innerHTML = buildRows(t.credentials.bankItems);
-
-    document.querySelectorAll('.copy-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        copyText(btn.getAttribute('data-copy'), t.credentials.copiedMsg);
-      });
-    });
-  }
-
   function applyLanguage(lang, persist = false) {
     if (!SUPPORTED_LANGS.includes(lang)) lang = 'ar';
     if (persist) localStorage.setItem(STORAGE_KEY, lang);
@@ -169,7 +144,6 @@
     renderProducts(t);
     renderDivisions(t);
     renderBranches(t);
-    renderCredentials(t);
   }
 
   document.addEventListener('DOMContentLoaded', () => {
